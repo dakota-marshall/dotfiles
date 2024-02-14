@@ -1,10 +1,11 @@
 - defaults:
-  link:
-    force: true
+    link:
+      relink: true
+      force: true
 
 - link:
-  ~/.config/terminator: terminator
-  ~/.config/hypr: hypr
-  ~/.config/swayidle: swayidle
-  ~/.config/waybar: waybar
-  ~/.config/wofi: wofi
+    ~/.config/terminator: terminator
+    ~/.config/hypr: hypr
+    ~/.config/swayidle: swayidle
+    ~/.config/waybar: waybar
+    ~/.config/wofi: wofi
