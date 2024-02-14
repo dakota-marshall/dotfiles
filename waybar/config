@@ -83,9 +83,32 @@
     },
     "clock": {
         "interval": 1,
+        "tooltip": true,
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+          "mode"          : "year",
+          "mode-mon-col"  : 3,
+          "weeks-pos"     : "right",
+          "on-scroll"     : 1,
+          "on-click-right": "mode",
+          "format": {
+                    "months":     "<span color='#cba6f7'><b>{}</b></span>",
+                    "days":       "<span color='#f5e0dc'><b>{}</b></span>",
+                    "weeks":      "<span color='#a6e3a1'><b>W{}</b></span>",
+                    "weekdays":   "<span color='#74c7ec'><b>{}</b></span>",
+                    "today":      "<span color='#f38ba8'><b><u>{}</u></b></span>"
+          }
+        },
+        "actions":  {
+          "on-click-right": "mode",
+          "on-click-forward": "tz_up",
+          "on-click-backward": "tz_down",
+          "on-scroll-up": "shift_up",
+          "on-scroll-down": "shift_down"
+        },
         "locale": "C", 
-        "format": " {:%T}",
-        "format-alt": " {:%a,%b %d}" // Icon: calendar-alt
+        "format": "{:  %a,%b %d (   %T ) }",
+        //"format-alt": " {:%a,%b %d}" // Icon: calendar-alt
     },
     "cpu": {
         "format": "&#8239;{usage}%",
