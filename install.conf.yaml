@@ -4,6 +4,7 @@
       force: true
 
 - link:
+    ~/.zshrc: .zshrc
     ~/.config/terminator: terminator
     ~/.config/hypr: hypr
     ~/.config/swayidle: swayidle
