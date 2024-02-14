@@ -5,7 +5,7 @@
     "width": 1650,
     "margin": "3, 0, 2, 0",
     // Choose the order of the modules
-    "modules-left": ["custom/wmname","hyprland/workspaces","sway/mode","cpu","custom/separator","memory", "custom/recorder", "custom/audiorec", "custom/separator", "mpris"],
+    "modules-left": ["hyprland/workspaces","sway/mode","cpu","custom/separator","memory", "custom/recorder","custom/separator", "disk", "custom/audiorec", "custom/separator", "mpris"],
     "modules-center": ["hyprland/window"],
     "modules-right": [
         "tray",
@@ -71,7 +71,7 @@
         "format": "<span style=\"italic\">{}</span>"
     },
     "idle_inhibitor": {
-        "format": "{icon}",
+        "format": "{icon} ",
         "format-icons": {
             "activated": "",
             "deactivated": ""
@@ -111,16 +111,23 @@
         //"format-alt": " {:%a,%b %d}" // Icon: calendar-alt
     },
     "cpu": {
-        "format": "&#8239;{usage}%",
-        "tooltip": false,
+        "format": "&#8239; {usage}%",
+        "tooltip": true,
         "on-click": "kitty -e 'htop'"
+    },
+    "disk": {
+      "interval": 30,
+      "format": "󱛟  {percentage_free}%",
+      "tooltip": true,
+      "tooltip-format": "Path: /\nUsed: {used}\nFree: {free}\nTotal: {total}",
+      "path": "/"
     },
     "memory": {
         "interval": 30,
         "format": " {used:0.2f}GB",
 
         "max-length": 10,
-        "tooltip": false,
+        "tooltip": true,
         "warning": 70,
         "critical": 90
     },
@@ -179,8 +186,8 @@
       "max-length": 45
     },
     "mpris": {
-      "format": "{player_icon} {dynamic}",
-      "format-paused": "{status_icon} <i>{dynamic}</i>",
+      "format": "{player_icon} {title} - {artist}",
+      "format-paused": "{status_icon} <i>{title} - {artist}</i>",
       "dynamic-len": 50,
       "dynamic-importance-order": [
         "title",
