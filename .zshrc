@@ -118,7 +118,7 @@ alias top="bashtop"
 alias htop="bashtop"
 alias cat="bat --pager=never"
 alias catp="bat -pp"
-alias vpn="sudo openfortivpn -c /etc/openfortivpn/datayard"
+alias vpn="sudo openfortivpn -c ~/.config/openfortivpn/datayard.cfg"
 alias fyay="flatpak update -y && yay"
 source /home/dmarshall/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
