@@ -10,3 +10,4 @@
     ~/.config/swayidle: swayidle
     ~/.config/waybar: waybar
     ~/.config/wofi: wofi
+    ~/.config/swaync: swaync
