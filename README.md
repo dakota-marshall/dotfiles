@@ -7,5 +7,6 @@ wireplumber xdg-desktop-portal-hyprland \
 xdg-desktop-portal-gtk polkit-kde-agent \
 hyprpaper cliphist wl-clip-persist \
 nerd-fonts hyprshot swaylock-effects \
-mako python-psutil python-pydbus
+mako python-psutil python-pydbus \
+network-manager-applet blueman
 ```
