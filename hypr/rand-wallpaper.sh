@@ -10,7 +10,7 @@ if [ -d "$directory" ]; then
     hyprctl hyprpaper preload $random_background
 
     while IFS= read -r monitor; do
-        hyprctl hyprpaper wallpaper "$monitor, contain:$random_background"
+        hyprctl hyprpaper wallpaper "$monitor, $random_background"
     done <<< "$monitors"
 
 fi
