@@ -25,7 +25,7 @@ ZSH_THEME="steeef"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -60,7 +60,7 @@ ZSH_THEME="steeef"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 HISTFILE=~/.zhistory
 HISTSIZE=SAVEHIST=10000
 
@@ -125,3 +125,5 @@ source /home/dmarshall/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Created by `pipx` on 2023-06-26 15:41:52
 export PATH="$PATH:/home/dmarshall/.local/bin:/opt/rocm/bin/"
+
+eval "$(zoxide init --cmd cd zsh )"
