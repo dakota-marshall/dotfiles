@@ -204,7 +204,7 @@
       "status-icons": {
         "paused": "⏸"
       },
-      // "ignored-players": ["firefox"]
+      "ignored-players": ["firefox"]
     },
     "custom/recorder": {
         "format": " Rec",
