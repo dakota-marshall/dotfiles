@@ -9,5 +9,7 @@ hyprpaper cliphist wl-clip-persist \
 nerd-fonts hyprshot swaylock-effects \
 mako python-psutil python-pydbus \
 network-manager-applet blueman \
-catppuccin-gtk-theme-mocha
+catppuccin-gtk-theme-mocha \
+brightnessctl lazygit neovim \
+ripgrep fd
 ```
