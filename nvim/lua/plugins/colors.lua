@@ -1,11 +1,25 @@
-vim.cmd.colorscheme "catppuccin-mocha"
+-- function SetColors(color)
+--     color = color or "catppuccin-mocha"
+--     vim.cmd.colorscheme(color)
+--
+--     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+--     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- end
 
-function SetColors(color)
-	color = color or "catppuccin-mocha"
-	vim.cmd.colorscheme(color)
+-- SetColors()
 
-	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-end
+require("catppuccin").setup({
+    flavor = "mocha",
+    transparent_background = true,
+    term_colors = true,
+    integrations = {
+        gitsigns = true,
+        nvimtree = true,
+        treesitter_context = true,
+        telescope = true,
 
-SetColors()
+    }
+
+})
+
+vim.cmd.colorscheme("catppuccin")
