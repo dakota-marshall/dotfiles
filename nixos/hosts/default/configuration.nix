@@ -17,7 +17,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "dmarshall-nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -131,7 +131,7 @@
   services.flatpak.packages = [
     "com.discordapp.Discord"
     # "com.feaneron.Boatswain"
-    # "com.github.tchx84.Flatseal"
+    "com.github.tchx84.Flatseal"
     # "com.jagex.RuneScape"
     # "com.mongodb.Compass"
     # "com.plexamp.Plexamp"
@@ -150,8 +150,8 @@
   environment.systemPackages = with pkgs; [
     btop
     terminator
-    # go
-    # python3
+    go
+    python3
     # openfortivpn
     # docker
     # yt-dlp
@@ -179,8 +179,8 @@
     hyprshot
     mako
     libnotify
-    # python311Packages.psutil
-    # python311Packages.pydbus
+    python311Packages.psutil
+    python311Packages.pydbus
     networkmanagerapplet
     blueman
     catppuccin-gtk
@@ -189,6 +189,9 @@
     fd
     telegram-desktop
     blender
+    libgcc
+    lutris
+    clang
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
