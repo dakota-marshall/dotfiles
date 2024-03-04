@@ -71,7 +71,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     # If you want to use JACK applications, uncomment this
-    #jack.enable = true;
+    jack.enable = true;
 
     # use the example session manager (no others are packaged yet so this is enabled by default,
     # no need to redefine it in your config for now)
@@ -99,25 +99,49 @@
 
   programs.zsh.enable = true;
   programs.steam.enable = true;
-  programs.hyprland.enable = true;
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
   programs.git.enable = true;
   programs.neovim.enable = true;
   programs.waybar.enable = true;
   
+  services.flatpak.enable = true;
+  # https://github.com/gmodena/nix-flatpak
+  # services.flatpak.update.auto = {
+  #     enable = true;
+  #     onCalendar = "weekly"; # Default value
+  #   };
+  # Declare flatpaks to install
+  services.flatpak.packages = [
+    "com.discordapp.Discord"
+    # "com.feaneron.Boatswain"
+    # "com.github.tchx84.Flatseal"
+    # "com.jagex.RuneScape"
+    # "com.mongodb.Compass"
+    # "com.plexamp.Plexamp"
+    # "com.ultimaker.cura"
+    # "de.shorsh.discord-screenaudio"
+    # "md.obsidian.Obsidian"
+    # "net.davidotek.pupgui2"
+    # "org.chromium.Chromium"
+    # "org.kde.krita"
+    # "org.signal.Signal"
+    # "us.zoom.Zoom"
+  ]
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     btop
     terminator
-    # vscode
     # go
     # python3
     # openfortivpn
     # docker
     # yt-dlp
     # obs-studio
-    # obsidian
     # distrobox
     zoxide
     fzf
@@ -140,6 +164,7 @@
     swaylock-effects
     hyprshot
     mako
+    libnotify
     # python311Packages.psutil
     # python311Packages.pydbus
     networkmanagerapplet
@@ -147,6 +172,8 @@
     catppuccin-gtk
     ripgrep
     fd
+    telegram-desktop
+    blender
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -158,12 +185,14 @@
   # };
  
   # List services that you want to enable:
-  services.flatpak.enable = true;
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
   systemd.user.services.syncthing.enable = true;
-
+  
+  # XDG Portal settings for hyprland
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk pkgs.xdg-desktop-portal-hyprland];
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
