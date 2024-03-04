@@ -98,7 +98,18 @@
 
   # Install and configure packages
 
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+    ohMyZsh = {
+      enable = true;
+        theme = "steeef";
+        plugins = [
+          "git"
+          "sudo"
+          "zsh-autosuggestions"
+        ];
+    };
+  };
   programs.steam.enable = true;
   programs.hyprland = {
     enable = true;
