@@ -82,10 +82,10 @@
   users.users.dmarshall = {
     isNormalUser = true;
     description = "Dakota Marshall";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    shell = "zsh"
     packages = with pkgs; [
       firefox
-    #  thunderbird
     ];
   };
 
@@ -102,6 +102,7 @@
     go
     python3
     openfortivpn
+    docker
     yt-dlp
     obs-studio
     obsidian
@@ -146,7 +147,8 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-
+  programs.zsh.enable = true;
+ 
   # List services that you want to enable:
   services.flatpak.enable = true;
   # Enable the OpenSSH daemon.
