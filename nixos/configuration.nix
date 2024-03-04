@@ -152,7 +152,7 @@
     pipewire
     wireplumber
     xdg-desktop-portal-hyprland
-    # xdg-desktop-portal-gtk
+    xdg-desktop-portal-gtk
     polkit-kde-agent
     hyprpaper
     cliphist
@@ -192,7 +192,8 @@
   
   # XDG Portal settings for hyprland
   xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk pkgs.xdg-desktop-portal-hyprland];
+  # pkgs.xdg-desktop-portal-gtk
+  xdg.portal.extraPortals = [  pkgs.xdg-desktop-portal-hyprland];
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
