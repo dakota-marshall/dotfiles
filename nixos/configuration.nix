@@ -86,7 +86,7 @@
     isNormalUser = true;
     description = "Dakota Marshall";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
-    shell = "zsh"
+    shell = pkgs.zsh;
     packages = with pkgs; [
       firefox
     ];
