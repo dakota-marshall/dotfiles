@@ -151,19 +151,19 @@
   # Declare flatpaks to install
   services.flatpak.packages = [
     "com.discordapp.Discord"
-    # "com.feaneron.Boatswain"
+    "com.feaneron.Boatswain"
     "com.github.tchx84.Flatseal"
-    # "com.jagex.RuneScape"
-    # "com.mongodb.Compass"
-    # "com.plexamp.Plexamp"
-    # "com.ultimaker.cura"
-    # "de.shorsh.discord-screenaudio"
-    # "md.obsidian.Obsidian"
-    # "net.davidotek.pupgui2"
-    # "org.chromium.Chromium"
-    # "org.kde.krita"
-    # "org.signal.Signal"
-    # "us.zoom.Zoom"
+    "com.jagex.RuneScape"
+    "com.mongodb.Compass"
+    "com.plexamp.Plexamp"
+    "com.ultimaker.cura"
+    "de.shorsh.discord-screenaudio"
+    "md.obsidian.Obsidian"
+    "net.davidotek.pupgui2"
+    "org.chromium.Chromium"
+    "org.kde.krita"
+    "org.signal.Signal"
+    "us.zoom.Zoom"
   ];
 
   # List packages installed in system profile. To search, run:
@@ -173,11 +173,11 @@
     terminator
     go
     python3
-    # openfortivpn
-    # docker
-    # yt-dlp
-    # obs-studio
-    # distrobox
+    openfortivpn
+    docker
+    yt-dlp
+    obs-studio
+    distrobox
     zoxide
     fzf
     swaynotificationcenter
@@ -192,9 +192,9 @@
     polkit-kde-agent
     hyprpaper
     cliphist
-    # syncthing
-    # quickemu
-    # quickgui
+    syncthing
+    quickemu
+    quickgui
     wl-clip-persist
     nerdfonts
     swaylock-effects
