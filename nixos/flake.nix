@@ -22,7 +22,7 @@
           specialArgs = {inherit inputs;};
           modules = [
             nix-flatpak.nixosModules.nix-flatpak
-            ./configuration.nix
+            ./hosts/default/configuration.nix
             # inputs.home-manager.nixosModules.default
           ];
         };
