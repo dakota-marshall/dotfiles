@@ -171,60 +171,63 @@
   environment.systemPackages = with pkgs; [
     ansible
     audacity
+    bat
+    blender
+    blueman
     btop
-    terminator
-    go
-    python3
-    openfortivpn
-    docker
-    yt-dlp
-    obs-studio
+    catppuccin-gtk
+    clang
+    cliphist
     distrobox
-    zoxide
+    docker
+    fd
     fzf
-    swaynotificationcenter
-    wofi
-    swaylock
-    libsForQt5.filelight
     gamescope
-    kubernetes-helm
+    go
     helmfile
+    hyprpaper
+    hyprshot
+    kubernetes-helm
+    libgcc
+    libnotify
+    libsForQt5.filelight
     libsForQt5.okular
+    lutris
+    mako
+    nerdfonts
+    networkmanagerapplet
+    obs-studio
+    openfortivpn
+    openrgb
     openshot-qt
     picard
-    qbittorrent
-    swayidle
     pipewire
-    wireplumber
-    steam-tui
-    xdg-desktop-portal-hyprland
-    xdg-desktop-portal-gtk
     polkit-kde-agent
-    hyprpaper
-    openrgb
-    cliphist
-    syncthing
-    quickemu
-    quickgui
-    wl-clip-persist
-    nerdfonts
-    swaylock-effects
-    hyprshot
-    mako
-    libnotify
+    python3
     python311Packages.psutil
     python311Packages.pydbus
-    networkmanagerapplet
-    blueman
-    catppuccin-gtk
+    qbittorrent
+    quickemu
+    quickgui
+    remmina
     ripgrep
-    bat
-    fd
+    steam-tui
+    swayidle
+    swaylock
+    swaylock-effects
+    swaynotificationcenter
+    syncthing
     telegram-desktop
-    blender
-    libgcc
-    lutris
-    clang
+    terminator
+    vlc
+    wireplumber
+    wireshark
+    wl-clip-persist
+    wofi
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal-hyprland
+    yt-dlp
+    zoxide
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
