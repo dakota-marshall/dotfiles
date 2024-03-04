@@ -96,6 +96,19 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  
+  # Yubikey Settings
+  services.udev.packages = [ pkgs.yubikey-personalization ];
+  programs.gnupg.agent = {
+    enable = true;
+    enableSSHSupport = true;
+  };
+  security.pam.services = {
+    login.u2fAuth = true;
+    sudo.u2fAuth = true;
+
+  };
+
   # Install and configure packages
 
   programs.zsh = {
@@ -120,7 +133,7 @@
   programs.git.enable = true;
   programs.neovim.enable = true;
   programs.waybar.enable = true;
-  
+
   services.flatpak.enable = true;
   # https://github.com/gmodena/nix-flatpak
   # services.flatpak.update.auto = {
