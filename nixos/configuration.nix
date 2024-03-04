@@ -172,6 +172,7 @@
     blueman
     catppuccin-gtk
     ripgrep
+    bat
     fd
     telegram-desktop
     blender
