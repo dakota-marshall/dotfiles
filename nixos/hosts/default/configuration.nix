@@ -100,13 +100,15 @@
 
   programs.zsh = {
     enable = true;
+    histSize = 10000;
+    autosuggestions.enable = true;
+    syntaxHighlighting.enable = true;
     ohMyZsh = {
       enable = true;
         theme = "steeef";
         plugins = [
           "git"
           "sudo"
-          "zsh-autosuggestions"
         ];
     };
   };
