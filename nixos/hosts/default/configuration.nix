@@ -186,6 +186,7 @@
     swayidle
     pipewire
     wireplumber
+    steam-tui
     xdg-desktop-portal-hyprland
     xdg-desktop-portal-gtk
     polkit-kde-agent
@@ -226,7 +227,7 @@
   # List services that you want to enable:
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
-
+  services.dbus.enable = true;
   systemd.user.services.syncthing.enable = true;
   
   # XDG Portal settings for hyprland
