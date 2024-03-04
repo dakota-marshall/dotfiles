@@ -169,6 +169,8 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    ansible
+    audacity
     btop
     terminator
     go
@@ -183,6 +185,14 @@
     swaynotificationcenter
     wofi
     swaylock
+    libsForQt5.filelight
+    gamescope
+    kubernetes-helm
+    helmfile
+    libsForQt5.okular
+    openshot-qt
+    picard
+    qbittorrent
     swayidle
     pipewire
     wireplumber
@@ -191,6 +201,7 @@
     xdg-desktop-portal-gtk
     polkit-kde-agent
     hyprpaper
+    openrgb
     cliphist
     syncthing
     quickemu
