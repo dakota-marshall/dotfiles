@@ -1,0 +1,5 @@
+OpenTabletDriver/Cache
+OpenTabletDriver/daemon.log
+obs-studio/logs
+obs-studio/profiler_data
+obs-studio/basic/profiles/*/service.json*

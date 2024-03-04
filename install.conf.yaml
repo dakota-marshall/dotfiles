@@ -13,3 +13,6 @@
     ~/.config/swaync: swaync
     ~/.config/nvim: nvim
     ~/.config/Yubico: yubico
+    ~/.config/OpenTabletDriver: OpenTabletDriver
+    ~/.config/obs-studio: obs-studio
+    ~/.config/openfortivpn: openfortivpn
