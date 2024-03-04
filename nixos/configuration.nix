@@ -11,7 +11,7 @@
     ];
 
   # Enable Flakes
-  nix.settings.exerimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = ["nix-command" "flakes"];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -101,15 +101,15 @@
     neovim
     btop
     terminator
-    vscode
-    go
-    python3
-    openfortivpn
-    docker
-    yt-dlp
-    obs-studio
-    obsidian
-    distrobox
+    # vscode
+    # go
+    # python3
+    # openfortivpn
+    # docker
+    # yt-dlp
+    # obs-studio
+    # obsidian
+    # distrobox
     hyprland
     zsh
     zoxide
@@ -126,16 +126,16 @@
     polkit-kde-agent
     hyprpaper
     cliphist
-    syncthing
-    quickemu
-    quickgui
+    # syncthing
+    # quickemu
+    # quickgui
     wl-clip-persist
     nerdfonts
     swaylock-effects
     hyprshot
     mako
-    python311Packages.psutil
-    python311Packages.pydbus
+    # python311Packages.psutil
+    # python311Packages.pydbus
     networkmanagerapplet
     blueman
     catppuccin-gtk
