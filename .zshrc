@@ -106,6 +106,11 @@ ipinfo() {
     curl https://ipinfo.io/$1
 }
 
+unalias gcp
+gcp() {
+    git add . && git commit -m $1 && git push
+}
+
 compress() {
     ffmpeg -i $1 -qscale:v 2 $1-compressed.jpg    
 }

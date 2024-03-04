@@ -192,7 +192,7 @@
   
   # XDG Portal settings for hyprland
   xdg.portal.enable = true;
-  # pkgs.xdg-desktop-portal-gtk
+  # pkgs.xdg-desktop-portal-gtk # this might need to get added back for when I am on hyprland, not GNOME
   xdg.portal.extraPortals = [  pkgs.xdg-desktop-portal-hyprland];
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
