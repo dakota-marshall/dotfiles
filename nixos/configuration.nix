@@ -53,9 +53,9 @@
   services.xserver.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
-  services.xserver = {
+  services.xserver.xkb = {
     layout = "us";
-    xkbVariant = "";
+    variant = "";
   };
 
   # Enable CUPS to print documents.
@@ -85,7 +85,7 @@
   users.users.dmarshall = {
     isNormalUser = true;
     description = "Dakota Marshall";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
       firefox

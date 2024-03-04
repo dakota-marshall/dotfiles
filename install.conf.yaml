@@ -12,4 +12,3 @@
     ~/.config/wofi: wofi
     ~/.config/swaync: swaync
     ~/.config/nvim: nvim
-    /etc/nixos/configuration.nix: nixos/configuration.nix
