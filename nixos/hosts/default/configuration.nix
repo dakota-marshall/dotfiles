@@ -103,12 +103,20 @@
     enable = true;
     enableSSHSupport = true;
   };
+  # Entries in /etc/pam.d
+  # login should cover most things
   security.pam.services = {
     login.u2fAuth = true;
     sudo.u2fAuth = true;
 
   };
+  security.pam.u2f = {
+    enable = true;
+    control = "sufficient";
+    interactive = true;
+    cue = true;
 
+  };
   # Install and configure packages
 
   programs.zsh = {
