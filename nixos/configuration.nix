@@ -95,12 +95,20 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Install and configure packages
+
+  programs.zsh.enable = true;
+  programs.steam.enable = true;
+  programs.hyprland.enable = true;
+  programs.git.enable = true;
+  programs.neovim.enable = true;
+  programs.waybar.enable = true;
+  
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    neovim
     btop
-    git
     terminator
     # vscode
     # go
@@ -111,12 +119,9 @@
     # obs-studio
     # obsidian
     # distrobox
-    hyprland
-    zsh
     zoxide
     fzf
     swaynotificationcenter
-    waybar
     wofi
     swaylock
     swayidle
@@ -151,7 +156,6 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-  programs.zsh.enable = true;
  
   # List services that you want to enable:
   services.flatpak.enable = true;
