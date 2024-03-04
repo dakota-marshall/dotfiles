@@ -129,7 +129,7 @@
     # "org.kde.krita"
     # "org.signal.Signal"
     # "us.zoom.Zoom"
-  ]
+  ];
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
