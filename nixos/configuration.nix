@@ -152,7 +152,7 @@
     pipewire
     wireplumber
     xdg-desktop-portal-hyprland
-    xdg-desktop-portal-gtk
+    # xdg-desktop-portal-gtk
     polkit-kde-agent
     hyprpaper
     cliphist
