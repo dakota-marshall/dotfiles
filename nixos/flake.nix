@@ -18,14 +18,15 @@
     in
     {
     
-      nixosConfigurations.default = nixpkgs.lib.nixosSystem {
-          specialArgs = {inherit inputs;};
-          modules = [
-            nix-flatpak.nixosModules.nix-flatpak
-            ./hosts/default/configuration.nix
-            # inputs.home-manager.nixosModules.default
-          ];
-        };
-
+      nixosConfigurations = {
+          default = nixpkgs.lib.nixosSystem {
+            specialArgs = {inherit inputs;};
+            modules = [
+                nix-flatpak.nixosModules.nix-flatpak
+                ./hosts/default/configuration.nix
+                # inputs.home-manager.nixosModules.default
+            ];
+          };
+      };
     };
 }
