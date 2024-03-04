@@ -11,7 +11,7 @@
     ];
 
   # Enable Flakes
-  nix.settings.exerimental-features = ["nix-command", "flakes"];
+  nix.settings.exerimental-features = ["nix-command" "flakes"];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
