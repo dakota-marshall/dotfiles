@@ -100,6 +100,7 @@
   environment.systemPackages = with pkgs; [
     neovim
     btop
+    git
     terminator
     # vscode
     # go
