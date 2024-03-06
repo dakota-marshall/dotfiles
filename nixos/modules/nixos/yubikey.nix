@@ -15,6 +15,8 @@
   };
   security.pam.u2f = {
     enable = true;
+    origin = "pam://dmarshall-endeavour";
+    appid = "pam://dmarshall-endeavour";
     control = "sufficient";
     interactive = true;
     cue = true;
