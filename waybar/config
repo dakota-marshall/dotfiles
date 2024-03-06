@@ -2,8 +2,8 @@
     "layer": "top",
     "position": "top",
     "height": 33,
-    "width": 1650,
-    "margin": "3, 0, 2, 0",
+//    "width": 1650,
+    "margin": "3, 25, 2, 25",
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces","sway/mode","cpu","custom/separator","memory", "custom/recorder","custom/separator", "disk", "custom/audiorec", "custom/separator", "mpris"],
     "modules-center": ["hyprland/window"],
