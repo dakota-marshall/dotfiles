@@ -9,6 +9,7 @@
   #   };
   # Declare flatpaks to install
   services.flatpak.packages = [
+    "com.calibre_ebook.calibre"
     "com.discordapp.Discord"
     "com.feaneron.Boatswain"
     "com.github.tchx84.Flatseal"
@@ -20,7 +21,9 @@
     "md.obsidian.Obsidian"
     "net.davidotek.pupgui2"
     "org.chromium.Chromium"
+    "org.gnome.design.Emblem"
     "org.kde.krita"
+    "org.rncbc.qpwgraph"
     "org.signal.Signal"
     "us.zoom.Zoom"
   ];
