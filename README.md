@@ -2,7 +2,7 @@
 
 These are all my dotfiles and my NixOS config. 
 
-- NixOS config is obciously in `nixos/`
+- NixOS config is obviously in `nixos/`
 - Currently using [dotbot](https://github.com/anishathalye/dotbot) to symlink dotfiles out (Will likely be switching over to NixOS home-manager eventually)
 
 These files are *not* generalized, so they probably will only work for me.
