@@ -242,8 +242,15 @@
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
   services.dbus.enable = true;
-  systemd.user.services.syncthing.enable = true;
-  
+  services.syncthing = {
+
+    enable = true;
+    systemService = false;
+    user = "dmarshall";
+    group = "dmarshall";
+    dataDir = "/home/dmarshall";
+
+  };
   # XDG Portal settings for hyprland
   xdg.portal.enable = true;
   # pkgs.xdg-desktop-portal-gtk # this might need to get added back for when I am on hyprland, not GNOME
