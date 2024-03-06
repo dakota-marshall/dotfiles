@@ -8,8 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      (modulesPath + "nixos/packages.nix")
-      (modulesPath + "nixos/flatpaks.nix")
+      (modulesPath + "/nixos/packages.nix")
+      (modulesPath + "/nixos/flatpaks.nix")
     ];
 
   # Enable Flakes
