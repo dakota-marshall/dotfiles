@@ -5,15 +5,15 @@
 { config, pkgs, ... }:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ../../modules/nixos/defaults.nix
-      ../../modules/nixos/users.nix
-      ../../modules/nixos/yubikey.nix
-      ../../modules/nixos/packages.nix
-      ../../modules/nixos/flatpaks.nix
-    ];
+  imports = let customModules = "../../modules/"; in [ 
+          # Include the results of the hardware scan.
+          ./hardware-configuration.nix
+          ( customModules + "nixos/defaults.nix" )
+          ( customModules + "nixos/users.nix" )
+          ( customModules + "nixos/yubikey.nix" )
+          ( customModules + "nixos/packages.nix" )
+          ( customModules + "nixos/flatpaks.nix" )
+  ];
 
 
   networking.hostName = "dmarshall-nixos"; # Define your hostname.
