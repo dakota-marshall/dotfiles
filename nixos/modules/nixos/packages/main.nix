@@ -94,8 +94,9 @@
     syncthing
     telegram-desktop
     terminator
-    timeshift
     vlc
+    waybar-mpris
+    pika-backup
     wireplumber
     wireshark
     wl-clip-persist
