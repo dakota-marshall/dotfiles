@@ -32,6 +32,7 @@
   # $ nix search wget
   
   # Enable pam service for swaylock
+  # https://github.com/NixOS/nixpkgs/issues/158025 
   security.pam.services.swaylock = {};
 
   environment.systemPackages = with pkgs; [
