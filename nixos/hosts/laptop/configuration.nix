@@ -12,7 +12,7 @@
       ../../modules/nixos/defaults.nix
       ../../modules/nixos/users.nix
       ../../modules/nixos/yubikey.nix
-      ../../modules/nixos/packages.nix
+      ../../modules/nixos/packages/main.nix
       ../../modules/nixos/flatpaks.nix
     ];
 

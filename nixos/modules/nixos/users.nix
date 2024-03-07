@@ -7,7 +7,6 @@
     extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
-      firefox
     ];
   };
 }
