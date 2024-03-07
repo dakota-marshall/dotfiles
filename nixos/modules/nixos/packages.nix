@@ -27,7 +27,6 @@
   programs.neovim.enable = true;
   programs.waybar.enable = true;
   programs.dconf.enable = true;
-  environment.systemPackages = [ gnome.adwaita-icon-theme ];
   services.udev.packages = with pkgs; [ gnome.gnome-settings-daemon ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -46,6 +45,7 @@
     fd
     fzf
     gamescope
+    gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     go
     helmfile
@@ -77,7 +77,6 @@
     ripgrep
     steam-tui
     swayidle
-    swaylock
     swaylock-effects
     swaynotificationcenter
     syncthing
@@ -87,6 +86,7 @@
     wireplumber
     wireshark
     wl-clip-persist
+    wl-clipboard
     wofi
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
