@@ -96,8 +96,8 @@
     telegram-desktop
     terminator
     vlc
-    waybar-mpris
     pika-backup
+    playerctl
     wireplumber
     wireshark
     wl-clip-persist

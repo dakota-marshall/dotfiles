@@ -9,4 +9,16 @@
     packages = with pkgs; [
     ];
   };
+
+  systemd.user.services.playerctld = {
+    enable = true;
+
+    wantedBy = [ "default.target" ];
+
+    serviceConfig = {
+      ExecStart = "${pkgs.playerctl}/bin/playerctld";
+      Type = "dbus";
+      BusName = "org.mpris.MediaPlayer2.playerctld";
+    };
+  };
 }
