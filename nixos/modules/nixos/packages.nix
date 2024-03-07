@@ -87,6 +87,7 @@
     syncthing
     telegram-desktop
     terminator
+    timeshift
     vlc
     wireplumber
     wireshark
