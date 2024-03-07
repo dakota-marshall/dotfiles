@@ -72,7 +72,7 @@ HISTSIZE=SAVEHIST=10000
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo zsh-autosuggestions)
+plugins=(git sudo ) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -132,6 +132,6 @@ source /home/dmarshall/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # Created by `pipx` on 2023-06-26 15:41:52
-export PATH="$PATH:/home/dmarshall/.local/bin:/opt/rocm/bin/"
+# export PATH="$PATH:/home/dmarshall/.local/bin:/opt/rocm/bin/"
 
 eval "$(zoxide init --cmd cd zsh )"

@@ -26,7 +26,9 @@
   programs.git.enable = true;
   programs.neovim.enable = true;
   programs.waybar.enable = true;
-
+  programs.dconf.enable = true;
+  environment.systemPackages = [ gnome.adwaita-icon-theme ];
+  services.udev.packages = with pkgs; [ gnome.gnome-settings-daemon ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -44,6 +46,7 @@
     fd
     fzf
     gamescope
+    gnomeExtensions.appindicator
     go
     helmfile
     hyprpaper
