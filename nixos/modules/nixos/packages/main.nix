@@ -62,6 +62,7 @@
     helmfile
     hyprpaper
     hyprshot
+    killall
     kubernetes-helm
     libgcc
     libnotify
