@@ -13,6 +13,7 @@
       ../../modules/nixos/yubikey.nix
       ../../modules/nixos/packages/main.nix
       ../../modules/nixos/flatpaks.nix
+      ../../modules/nixos/fonts.nix
     ];
 
   # Needed for AMD 7000 GPU
