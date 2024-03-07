@@ -30,6 +30,10 @@
   services.udev.packages = with pkgs; [ gnome.gnome-settings-daemon ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+  
+  # Enable pam service for swaylock
+  security.pam.services.swaylock = {};
+
   environment.systemPackages = with pkgs; [
     ansible
     audacity
