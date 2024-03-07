@@ -74,7 +74,9 @@ window#waybar.hidden {
 #memory,
 #temperature,
 #backlight,
-#network,
+#network {
+    color: #FAB387;
+}
 #pulseaudio,
 #custom-media,
 #tray,
