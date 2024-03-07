@@ -10,6 +10,8 @@
     "modules-right": [
         "tray",
         "custom/separator",
+        "network",
+        "custom/separator",
         "idle_inhibitor",
         "custom/separator",
         "custom/notification",
@@ -134,10 +136,10 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "&#8239;({signalStrength}%)",
-        "format-ethernet": "&#8239;{ifname}: {ipaddr}/{cidr}",
+        "format-ethernet": "&#8239;󰈀  {ipaddr}",
         "format-linked": "&#8239;{ifname} (No IP)",
         "format-disconnected": "✈&#8239;Disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "format-alt": "󰈀  {ipaddr}/{cidr}",
         "tooltip-format": "{essid}: {ipaddr}"
     },
     "pulseaudio": {
@@ -187,7 +189,7 @@
     },
     "mpris": {
       "format": "{player_icon} {title} - {artist}",
-      "format-paused": "{status_icon} <i>{title} - {artist}</i>",
+      "format-paused": "{status_icon} <i>{titlempvScripts.mpris} - {artist}</i>",
       "dynamic-len": 50,
       "dynamic-importance-order": [
         "title",
