@@ -44,8 +44,7 @@
   environment.systemPackages = with pkgs; [
     ansible
     audacity
-    bat
-    blender
+    bat 
     blueman
     btop
     cargo
