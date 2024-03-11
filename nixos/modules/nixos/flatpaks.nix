@@ -8,6 +8,7 @@
   #     onCalendar = "weekly"; # Default value
   #   };
   # Declare flatpaks to install
+  # Requires flatpak flake source
   services.flatpak.packages = [
     "com.calibre_ebook.calibre"
     "com.discordapp.Discord"

@@ -9,6 +9,7 @@ in {
     (firefox.override { nativeMessagingHosts = [ firefox-profile-switcher-connector ]; })
   ];
 
+  # Requires home-manager
   # xdg.configFile = {
   #   "firefoxprofileswitcher/config.json".text = ''
   #     {"browser_binary": "${firefox-package}/bin/firefox"}
