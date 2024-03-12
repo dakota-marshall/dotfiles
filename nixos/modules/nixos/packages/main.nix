@@ -54,6 +54,7 @@
     distrobox
     docker
     fd
+    ffmpeg-full
     fzf
     gamescope
     gnome.adwaita-icon-theme
