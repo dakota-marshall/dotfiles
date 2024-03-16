@@ -61,6 +61,9 @@ require("lazy").setup({
     {
         "tpope/vim-fugitive"
     },
+    { 
+        "norcalli/nvim-colorizer.lua"
+    },
     {
         "catppuccin/nvim",
         name = "catppuccin",
