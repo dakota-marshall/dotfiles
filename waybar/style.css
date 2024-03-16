@@ -113,6 +113,9 @@ window#waybar.hidden {
 #battery {
     color: @accent5;
 }
+#battery.charging {
+    color: @accent2;
+}
 
 @keyframes blink {
     to {
