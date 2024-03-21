@@ -5,7 +5,7 @@
 //    "width": 1650,
     "margin": "3, 25, 2, 25",
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces","sway/mode","cpu","custom/separator","memory", "custom/recorder","custom/separator", "disk", "custom/audiorec", "custom/separator", "mpris"],
+    "modules-left": ["hyprland/workspaces","sway/mode","cpu","custom/separator","memory", "custom/recorder","custom/separator", "disk", "custom/separator", "battery", "custom/separator", "mpris"],
     "modules-center": ["hyprland/window"],
     "modules-right": [
         "tray",
@@ -82,6 +82,17 @@
     "tray": {
         "icon-size": 20,
         "spacing": 6
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "max-length": 35
     },
     "clock": {
         "interval": 1,
