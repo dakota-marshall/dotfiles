@@ -22,6 +22,7 @@
     "md.obsidian.Obsidian"
     "net.davidotek.pupgui2"
     "org.chromium.Chromium"
+    "org.expresslrs.ExpressLRSConfigurator"
     "org.gnome.design.Emblem"
     "org.kde.krita"
     "org.rncbc.qpwgraph"
