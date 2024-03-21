@@ -45,6 +45,7 @@
     ansible
     audacity
     bat 
+    betaflight-configurator
     blueman
     btop
     cargo
