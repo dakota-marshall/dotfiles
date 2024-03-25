@@ -15,6 +15,7 @@
       ../../modules/nixos/packages/main.nix
       ../../modules/nixos/flatpaks.nix
       ../../modules/nixos/fonts.nix
+      ../../modules/nixos/udev.nix
     ];
 
 

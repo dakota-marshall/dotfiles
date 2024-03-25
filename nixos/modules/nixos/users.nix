@@ -4,11 +4,14 @@
   users.users.dmarshall = {
     isNormalUser = true;
     description = "Dakota Marshall";
-    extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" "dialout" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" "dialout" "plugdev" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
     ];
   };
+
+  # Create plugdev group
+  users.groups.plugdev = {};
 
   systemd.user.services.playerctld = {
     enable = true;
