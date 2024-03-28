@@ -61,6 +61,7 @@
     gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     go
+    gyroflow
     helmfile
     hyprpaper
     hyprshot
