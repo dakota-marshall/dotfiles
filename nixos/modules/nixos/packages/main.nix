@@ -87,6 +87,7 @@
     python311Packages.psutil
     python311Packages.pydbus
     qbittorrent
+    qFlipper
     quickemu
     quickgui
     remmina
