@@ -41,6 +41,9 @@
   # https://github.com/NixOS/nixpkgs/issues/158025 
   security.pam.services.swaylock = {};
 
+  # Enable Docker
+  virtualisation.docker.enable = true;
+
   environment.systemPackages = with pkgs; [
     ansible
     audacity
@@ -80,6 +83,7 @@
     openfortivpn
     openrgb
     openshot-qt
+    pavucontrol
     picard
     pipewire
     polkit-kde-agent
