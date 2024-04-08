@@ -1,5 +1,6 @@
 OpenTabletDriver/Cache
 OpenTabletDriver/daemon.log
+OpenTabletDriver/Logs/*
 obs-studio/logs
 obs-studio/profiler_data
 obs-studio/basic/profiles/*/service.json*
