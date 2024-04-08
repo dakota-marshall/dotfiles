@@ -1,0 +1,4 @@
+{AMD/AMD Radeon RX 7800 XT (gfx1101, LLVM 16.0.6, DRM 3.54, 6.5.8-arch1-1)/4.6 (Core Profile) Mesa 23.2.1-arch1.2}=SUPPORTED
+{AMD/AMD Radeon RX 7800 XT (gfx1101, LLVM 16.0.6, DRM 3.54, 6.5.9-arch2-1)/4.6 (Core Profile) Mesa 23.2.1-arch1.2}=SUPPORTED
+{ATI Technologies Inc./AMD Radeon RX 7800 XT/4.5.0 Core Profile Context .230706}=SUPPORTED
+{AMD/AMD Radeon RX 7800 XT (gfx1101, LLVM 16.0.6, DRM 3.54, 6.6.1-arch1-1)/4.6 (Core Profile) Mesa 23.2.1-arch1.2}=SUPPORTED

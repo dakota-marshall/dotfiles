@@ -1,0 +1,7 @@
+[Bookmarks]
+/mnt/SSD/Blender/
+[Recent]
+/mnt/SSD/Blender/Render Output/Forge/
+/home/dmarshall/Downloads/source/
+/mnt/SSD/Blender/
+/home/dmarshall/Pictures/

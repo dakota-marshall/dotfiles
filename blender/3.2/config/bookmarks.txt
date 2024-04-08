@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/mnt/SSD/Blender/Render Output/Moving Meditation/
+/tmp/
+/home/dmarshall/Pictures/
+/mnt/SSD/Blender/Moving Meditations/
+/mnt/SSD/Blender/Moving Meditations/unity/
+/mnt/SSD/Blender/Moving Meditations/unity fbx/
+/mnt/SSD/Blender/Moving Meditations/Animations/
+/mnt/SSD/Blender/
+/mnt/SSD/Blender/Moving Meditations/Project Files/
+/mnt/SSD/Blender/Render Output/Donut/

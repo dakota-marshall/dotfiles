@@ -1,0 +1,13 @@
+[Bookmarks]
+[Recent]
+/mnt/SSD/Blender/Render Output/Potion/
+/mnt/SSD/Blender/
+/mnt/SSD/Blender/Render Output/Hollow Knight Bench/
+/mnt/SSD/Blender/Render Output/Goban/
+/mnt/SSD/Blender/Render Output/Quokka/
+/home/dmarshall/Pictures/
+!Home
+/home/dmarshall/
+/tmp/
+/mnt/SSD/Blender/assets/
+/home/dmarshall/Downloads/

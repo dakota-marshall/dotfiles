@@ -1,0 +1,4 @@
+/mnt/SSD/Blender/moving-meditations.blend
+/mnt/SSD/Blender/testing.blend
+/mnt/SSD/Blender/Moving Meditations/daily_work.blend
+/mnt/SSD/Blender/Moving Meditations/Project Files/MM_Blender_Template_v1.blend

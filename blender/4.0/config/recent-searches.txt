@@ -1,0 +1,23 @@
+Generate ▸ Subdivision Surface
+   Hilt
+  window placeholder
+Generate ▸ Boolean
+   Sword
+   Table
+   Table2
+   LogBark
+   Anvil
+   Leather Dark
+   Armor Leather
+Generate ▸ Solidify
+   Armor Glow
+   Armor
+   Ink
+   Paper
+   Feather
+   ForgeStone
+Shader ▸ Translucent BSDF
+Shader ▸ Principled BSDF
+
+   Chest
+Generate ▸ Mirror
