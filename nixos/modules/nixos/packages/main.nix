@@ -44,6 +44,14 @@
   # Enable Docker
   virtualisation.docker.enable = true;
 
+  # OpenTabletDriver
+  hardware.opentabletdriver = {
+  
+    enable = true;
+    daemon.enable = true;
+
+  };
+
   environment.systemPackages = with pkgs; [
     ansible
     audacity
