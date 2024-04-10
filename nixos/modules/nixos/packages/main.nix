@@ -69,6 +69,7 @@
     ffmpeg-full
     fzf
     gamescope
+    gamemode
     gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     go
