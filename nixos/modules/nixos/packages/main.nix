@@ -103,6 +103,7 @@
     qFlipper
     quickemu
     quickgui
+    r2modman
     remmina
     ripgrep
     steam-tui
