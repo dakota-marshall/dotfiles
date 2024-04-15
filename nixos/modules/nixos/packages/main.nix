@@ -77,6 +77,7 @@
     helmfile
     hyprpaper
     hyprshot
+    kcc
     killall
     kubernetes-helm
     libgcc
