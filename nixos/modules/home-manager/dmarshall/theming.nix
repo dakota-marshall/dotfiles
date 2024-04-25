@@ -11,6 +11,10 @@
                 variant = "mocha";
             };
         };
+        iconTheme = {
+          package = pkgs.gnome.adwaita-icon-theme;
+          name = "Adwaita";
+        };
     };
 
     # Now symlink the `~/.config/gtk-4.0/` folder declaratively:
