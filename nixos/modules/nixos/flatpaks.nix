@@ -3,10 +3,10 @@
 
   services.flatpak.enable = true;
   # https://github.com/gmodena/nix-flatpak
-  # services.flatpak.update.auto = {
-  #     enable = true;
-  #     onCalendar = "weekly"; # Default value
-  #   };
+  services.flatpak.update.auto = {
+      enable = true;
+      oncalendar = "weekly"; # default value
+    };
   # Declare flatpaks to install
   # Requires flatpak flake source
   services.flatpak.packages = [
