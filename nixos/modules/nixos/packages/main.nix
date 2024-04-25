@@ -84,6 +84,7 @@
     libnotify
     libsForQt5.filelight
     libsForQt5.okular
+    kdePackages.qt6ct
     lutris
     mako
     nerdfonts

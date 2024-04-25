@@ -2,7 +2,7 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{ config, lib, pkgs, ... }:
+{ inputs, config, lib, pkgs, ... }:
 
 {
   imports =
@@ -15,7 +15,16 @@
       ../../modules/nixos/flatpaks.nix
       ../../modules/nixos/fonts.nix
       ../../modules/nixos/udev.nix
+      # inputs.home-manager.nixosModules.default
     ];
+
+  # # import home-manager config
+  # home-manager = {
+  #   extraSpecialArgs = {inherit inputs; };
+  #   users = {
+  #       dmarshall = import ../../modules/home-manager/dmarshall.nix;
+  #   };
+  # }; 
 
   # Needed for AMD 7000 GPU
   boot.kernelPackages = pkgs.linuxPackages_latest;
