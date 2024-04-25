@@ -21,3 +21,4 @@ Shader ▸ Principled BSDF
 
    Chest
 Generate ▸ Mirror
+   Moon

@@ -1,3 +1,11 @@
+/mnt/SSD/Blender/eclipse1.blend
+/mnt/SSD/Blender/assets/skylab_1.0.0/skylab/assets/Another Atmosphere.blend
+/mnt/SSD/Blender/eclipse1.blend1
+/mnt/SSD/Blender/eclipse3.blend
+/mnt/SSD/Blender/eclipse.blend
+/tmp/eclipse_29762_autosave.blend
+/tmp/eclipse_35837_autosave.blend
+/mnt/SSD/Blender/assets/AutoTerrainGenerator_Base_LITE.blend
 /mnt/SSD/Blender/forge1.blend
 /mnt/SSD/Blender/vending-machine.blend
 /mnt/SSD/Blender/forge.blend

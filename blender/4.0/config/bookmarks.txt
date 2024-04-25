@@ -1,7 +1,13 @@
 [Bookmarks]
 /mnt/SSD/Blender/
 [Recent]
+/mnt/SSD/Blender/assets/
+/mnt/SSD/Blender/Render Output/Eclipse/
+/mnt/SSD/Blender/assets/skylab_1.0.0/skylab/
+/mnt/SSD/Blender/assets/alt_tab_easy_fog_2_demo_1.0.0/alt_tab_easy_fog_2_demo/
+/mnt/SSD/Blender/assets/skylab_1.0.0/skylab/assets/
+/mnt/SSD/Blender/
+/tmp/
 /mnt/SSD/Blender/Render Output/Forge/
 /home/dmarshall/Downloads/source/
-/mnt/SSD/Blender/
 /home/dmarshall/Pictures/

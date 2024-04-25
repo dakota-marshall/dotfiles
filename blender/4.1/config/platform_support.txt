@@ -1,1 +1,3 @@
 {AMD/AMD Radeon Graphics (radeonsi, raphael_mendocino, LLVM 17.0.6, DRM 3.57, 6.8.1)/4.6 (Core Profile) Mesa 24.0.3}=SUPPORTED
+{AMD/AMD Radeon Graphics (radeonsi, raphael_mendocino, LLVM 17.0.6, DRM 3.57, 6.8.5)/4.6 (Core Profile) Mesa 24.0.3}=SUPPORTED
+{AMD/AMD Radeon RX 7800 XT (radeonsi, navi32, LLVM 17.0.6, DRM 3.57, 6.8.5)/4.6 (Core Profile) Mesa 24.0.3}=SUPPORTED

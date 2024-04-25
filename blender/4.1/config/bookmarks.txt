@@ -1,3 +1,5 @@
 [Bookmarks]
 [Recent]
+/mnt/SSD/Blender/Render Output/Eclipse/
+/mnt/SSD/Blender/assets/
 /mnt/SSD/Blender/
