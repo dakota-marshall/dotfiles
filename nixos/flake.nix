@@ -34,10 +34,11 @@
             modules = [
                 nix-flatpak.nixosModules.nix-flatpak
                 ./hosts/desktop/configuration.nix
-                home-manager.nixosModules.home-manager {
-                   home-manager.extraSpecialArgs = {inherit inputs; };
-                   home-manager.users.dmarshall = import ./modules/home-manager/dmarshall.nix; 
-                }
+                # home-manager.nixosModules.home-manager {
+                #    home-manager.extraSpecialArgs = {inherit inputs; };
+                #    home-manager.users.dmarshall = import ./modules/home-manager/dmarshall.nix; 
+                # }
+                home-manager.nixosModules.default
             ];
           };
 

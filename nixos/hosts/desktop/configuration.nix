@@ -15,16 +15,16 @@
       ../../modules/nixos/flatpaks.nix
       ../../modules/nixos/fonts.nix
       ../../modules/nixos/udev.nix
-      # inputs.home-manager.nixosModules.default
+      inputs.home-manager.nixosModules.default
     ];
 
-  # # import home-manager config
-  # home-manager = {
-  #   extraSpecialArgs = {inherit inputs; };
-  #   users = {
-  #       dmarshall = import ../../modules/home-manager/dmarshall.nix;
-  #   };
-  # }; 
+  # import home-manager config
+  home-manager = {
+    extraSpecialArgs = {inherit inputs; };
+    users = {
+        dmarshall = import ../../modules/home-manager/dmarshall/main.nix;
+    };
+  }; 
 
   # Needed for AMD 7000 GPU
   boot.kernelPackages = pkgs.linuxPackages_latest;

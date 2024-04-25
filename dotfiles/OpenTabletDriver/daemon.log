@@ -1,0 +1,156 @@
+06/27/2023 21:59:36
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+07/30/2023 13:38:30
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+07/30/2023 20:25:21
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+07/31/2023 11:48:17
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+07/31/2023 12:12:37
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+08/02/2023 18:16:37
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+08/02/2023 23:29:46
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+08/16/2023 18:57:11
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__13_6(Object _) in /var/tmp/pamac-build-dmarshall/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+10/13/2023 15:27:53
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 186
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__14_6(Object _) in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 100
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+12/04/2023 18:19:36
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect()
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets()
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__14_6(Object _)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+01/02/2024 09:30:48
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 202
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__14_4() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 141
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+01/03/2024 18:41:14
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 202
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__14_6(Object _) in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
+02/05/2024 09:30:09
+System.InvalidOperationException
+Collection was modified; enumeration operation may not execute.
+System.Private.CoreLib
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at OpenTabletDriver.Driver.Detect() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 78
+   at OpenTabletDriver.Daemon.DriverDaemon.DetectTablets() in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 202
+   at OpenTabletDriver.Daemon.DriverDaemon.<Initialize>b__14_6(Object _) in /home/dmarshall/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver.Daemon/DriverDaemon.cs:line 101
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
