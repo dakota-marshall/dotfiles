@@ -2,6 +2,8 @@
 
 {
 
+  # Creates symlinks from the XDG config location (~/.config normally) to the specified source location
+  # These must be full paths, or else they are copied into the Nix store and linked as read only
   xdg.configFile = {
     "obs-studio".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/obs-studio";
     "terminator".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/terminator";
