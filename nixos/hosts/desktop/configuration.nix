@@ -30,6 +30,8 @@
      wget
      git
      blender-hip
+     v4l-utils
+     linuxPackages.v4l2loopback
    ];
 
   system.stateVersion = "23.11"; # Did you read the comment?
