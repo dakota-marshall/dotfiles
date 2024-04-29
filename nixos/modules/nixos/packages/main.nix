@@ -115,6 +115,7 @@
     syncthing
     telegram-desktop
     terminator
+    tmux
     vlc
     pika-backup
     playerctl
