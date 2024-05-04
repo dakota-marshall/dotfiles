@@ -108,6 +108,7 @@
     r2modman
     remmina
     ripgrep
+    runelite
     steam-tui
     swayidle
     swaylock-effects

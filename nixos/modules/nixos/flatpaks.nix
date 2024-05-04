@@ -3,6 +3,12 @@
 
   services.flatpak.enable = true;
   # https://github.com/gmodena/nix-flatpak
+  services.flatpak.remotes = [
+    {
+        name = "JagexLauncher";
+        location = "https://jagexlauncher.flatpak.mcswain.dev/JagexLauncher.flatpakrepo";
+    }
+  ];
   services.flatpak.update.auto = {
       enable = true;
       onCalendar = "weekly"; # default value
@@ -27,7 +33,11 @@
     "org.kde.krita"
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
+    "org.freedesktop.Platform.Compat.i386/x86_64/23.08"
+    "org.freedesktop.Platform.GL32.default/x86_64/23.08"
     "us.zoom.Zoom"
+    { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
+    { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
   ];
 
 
