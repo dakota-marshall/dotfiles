@@ -126,7 +126,7 @@ alias catp="bat -pp"
 alias nano="nvim"
 alias vim="nvim"
 alias vi="nvim"
-alias vpn="sudo openfortivpn -c ~/.config/openfortivpn/datayard.cfg"
+alias vpn="sudo openfortivpn -c ~/.config/openfortivpn/datayard.cfg; sudo killall openfortivpn"
 alias fyay="flatpak update -y && yay"
 source /home/dmarshall/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
