@@ -59,6 +59,7 @@
     betaflight-configurator
     blueman
     btop
+    bruno
     cargo
     catppuccin-gtk
     clang

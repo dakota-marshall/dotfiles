@@ -5,6 +5,10 @@
   # https://github.com/gmodena/nix-flatpak
   services.flatpak.remotes = [
     {
+        name = "flathub";
+        location = "https://dl.flathub.org/repo/flathub.flatpakrepo";
+    }
+    {
         name = "JagexLauncher";
         location = "https://jagexlauncher.flatpak.mcswain.dev/JagexLauncher.flatpakrepo";
     }
