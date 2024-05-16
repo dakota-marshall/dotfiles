@@ -24,7 +24,6 @@
     "com.discordapp.Discord"
     "com.feaneron.Boatswain"
     "com.github.tchx84.Flatseal"
-    "com.jagex.RuneScape"
     "com.mongodb.Compass"
     "com.plexamp.Plexamp"
     "com.ultimaker.cura"
