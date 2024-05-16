@@ -90,7 +90,7 @@
     mako
     nerdfonts
     networkmanagerapplet
-    nodejs_21
+    nodejs_22
     obs-studio
     openfortivpn
     openrgb
