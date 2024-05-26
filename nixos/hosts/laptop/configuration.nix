@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ inputs, config, pkgs, ... }:
 
 {
 
@@ -16,8 +16,16 @@
       ../../modules/nixos/flatpaks.nix
       ../../modules/nixos/fonts.nix
       ../../modules/nixos/udev.nix
+      inputs.home-manager.nixosModules.default
     ];
 
+  # import home-manager config
+  home-manager = {
+    extraSpecialArgs = {inherit inputs; };
+    users = {
+        dmarshall = import ../../modules/home-manager/dmarshall/main.nix;
+    };
+  }; 
 
   networking.hostName = "dmarshall-laptop"; # Define your hostname.
   # Enable touchpad support (enabled default in most desktopManager).

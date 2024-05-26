@@ -64,6 +64,7 @@
     catppuccin-gtk
     clang
     cliphist
+    clonehero
     distrobox
     docker
     fd
@@ -80,6 +81,7 @@
     hyprshot
     kcc
     killall
+    kubectl
     kubernetes-helm
     libgcc
     libnotify
@@ -117,6 +119,7 @@
     syncthing
     telegram-desktop
     terminator
+    thunderbird
     tmux
     vlc
     pika-backup
