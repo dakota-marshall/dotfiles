@@ -64,6 +64,7 @@
     catppuccin-gtk
     clang
     cliphist
+    darktable
     distrobox
     docker
     fd
@@ -78,6 +79,7 @@
     helmfile
     hyprpaper
     hyprshot
+    jq
     kcc
     killall
     kubernetes-helm

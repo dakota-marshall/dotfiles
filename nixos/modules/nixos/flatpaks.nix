@@ -26,6 +26,7 @@
     "com.github.tchx84.Flatseal"
     "com.mongodb.Compass"
     "com.plexamp.Plexamp"
+    "com.adamcake.Bolt"
     "com.ultimaker.cura"
     "de.shorsh.discord-screenaudio"
     "io.github.dgsasha.Remembrance"
@@ -40,8 +41,9 @@
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
     "us.zoom.Zoom"
-    { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
-    { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
+    # Official Jagex Launcher, not needed because of Bolt
+    # { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
+    # { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
   ];
 
 
