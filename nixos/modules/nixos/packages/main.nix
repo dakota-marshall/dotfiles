@@ -65,6 +65,7 @@
     clang
     cliphist
     clonehero
+    darktable
     distrobox
     docker
     fd
@@ -79,6 +80,7 @@
     helmfile
     hyprpaper
     hyprshot
+    jq
     kcc
     killall
     kubectl

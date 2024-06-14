@@ -26,21 +26,24 @@
     "com.github.tchx84.Flatseal"
     "com.mongodb.Compass"
     "com.plexamp.Plexamp"
+    "com.adamcake.Bolt"
     "com.ultimaker.cura"
     "de.shorsh.discord-screenaudio"
+    "io.github.dgsasha.Remembrance"
     "md.obsidian.Obsidian"
     "net.davidotek.pupgui2"
     "org.chromium.Chromium"
     "org.expresslrs.ExpressLRSConfigurator"
+    "org.freedesktop.Platform.Compat.i386/x86_64/23.08"
+    "org.freedesktop.Platform.GL32.default/x86_64/23.08"
     "org.gnome.design.Emblem"
     "org.kde.krita"
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
-    "org.freedesktop.Platform.Compat.i386/x86_64/23.08"
-    "org.freedesktop.Platform.GL32.default/x86_64/23.08"
     "us.zoom.Zoom"
-    { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
-    { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
+    # Official Jagex Launcher, not needed because of Bolt
+    # { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
+    # { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
   ];
 
 

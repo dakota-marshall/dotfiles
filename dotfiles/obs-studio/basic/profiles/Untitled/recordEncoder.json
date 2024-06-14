@@ -1,1 +1,1 @@
-{"rate_control":"CQP","cqp":20}
+{"vaapi_device":"/dev/dri/by-path/pci-0000:03:00.0-render"}
