@@ -1,7 +1,7 @@
 dotfiles/OpenTabletDriver/Cache
 dotfiles/OpenTabletDriver/daemon.log
 dotfiles/OpenTabletDriver/Logs/*
-dotfiles/obs-studio/logs
+dotfiles/obs-studio/logs/*
 dotfiles/obs-studio/profiler_data
 dotfiles/obs-studio/basic/profiles/*/service.json*
 dotfiles/blender/*/scripts/*
