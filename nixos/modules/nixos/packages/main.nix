@@ -98,6 +98,7 @@
     openfortivpn
     openrgb
     openshot-qt
+    oh-my-posh
     pavucontrol
     picard
     pipewire
