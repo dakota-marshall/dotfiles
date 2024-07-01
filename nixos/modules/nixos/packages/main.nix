@@ -75,6 +75,7 @@
     gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     go
+    go-swagger
     gyroflow
     helmfile
     hyprpaper
@@ -112,6 +113,7 @@
     remmina
     ripgrep
     runelite
+    sesh
     steam-tui
     swayidle
     swaylock-effects
