@@ -76,6 +76,7 @@
     gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     go
+    go-swagger
     gyroflow
     helmfile
     hyprpaper
@@ -99,6 +100,7 @@
     openfortivpn
     openrgb
     openshot-qt
+    oh-my-posh
     pavucontrol
     picard
     pipewire
@@ -114,6 +116,7 @@
     remmina
     ripgrep
     runelite
+    sesh
     steam-tui
     swayidle
     swaylock-effects

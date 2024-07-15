@@ -42,8 +42,8 @@
     "org.signal.Signal"
     "us.zoom.Zoom"
     # Official Jagex Launcher, not needed because of Bolt
-    # { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
-    # { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
+    { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
+    { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
   ];
 
 

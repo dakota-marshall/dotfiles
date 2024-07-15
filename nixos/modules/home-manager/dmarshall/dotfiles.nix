@@ -16,6 +16,7 @@
     "Yubico".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/yubico";
     "OpenTabletDriver".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/OpenTabletDriver";
     "openfortivpn".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/openfortivpn";
-    "blender".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/";
+    "blender".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/blender";
+    "omp".source = config.lib.file.mkOutOfStoreSymlink "/home/dmarshall/gitlab/dakota.marshall/dotfiles/dotfiles/omp";
   };
 }
