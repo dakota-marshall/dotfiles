@@ -78,6 +78,7 @@
     go-swagger
     gyroflow
     helmfile
+    heroic
     hyprpaper
     hyprshot
     jq
