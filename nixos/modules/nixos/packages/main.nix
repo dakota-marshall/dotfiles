@@ -84,6 +84,8 @@
     kcc
     killall
     kubernetes-helm
+    kubectl 
+    kubernetes-helmPlugins.helm-diff
     libgcc
     libnotify
     libsForQt5.filelight
@@ -102,6 +104,7 @@
     pavucontrol
     picard
     pipewire
+    pidgin
     polkit-kde-agent
     python3
     python311Packages.psutil
@@ -120,14 +123,19 @@
     swaylock-effects
     swaynotificationcenter
     syncthing
+    talosctl
     telegram-desktop
     terminator
+    terraform
+    tenv
     tmux
     vlc
     pika-backup
     playerctl
     wireplumber
     wireshark
+    wine
+    winetricks
     wl-clip-persist
     wl-clipboard
     wofi

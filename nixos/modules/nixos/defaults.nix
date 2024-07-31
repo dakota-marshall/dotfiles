@@ -52,6 +52,9 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
+  # For Calibre to be able to see USB devices
+  services.udisks2.enable = true;
+
   # Virtualization
   virtualisation.libvirtd.enable = true;
 
