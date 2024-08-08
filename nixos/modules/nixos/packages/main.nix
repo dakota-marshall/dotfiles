@@ -76,6 +76,7 @@
     gnomeExtensions.appindicator
     go
     go-swagger
+    gimp
     gyroflow
     helmfile
     heroic

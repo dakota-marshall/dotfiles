@@ -28,6 +28,7 @@
     "com.plexamp.Plexamp"
     "com.adamcake.Bolt"
     "com.ultimaker.cura"
+    "community.pathofbuilding.PathOfBuilding"
     "de.shorsh.discord-screenaudio"
     "io.github.dgsasha.Remembrance"
     "md.obsidian.Obsidian"
