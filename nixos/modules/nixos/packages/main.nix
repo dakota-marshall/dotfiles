@@ -79,7 +79,7 @@
     gimp
     gyroflow
     helmfile
-    heroic
+    # heroic
     hyprpaper
     hyprshot
     jq
@@ -95,6 +95,7 @@
     kdePackages.qt6ct
     lutris
     mako
+    nfs-utils
     nerdfonts
     networkmanagerapplet
     nodejs_22

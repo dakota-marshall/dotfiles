@@ -38,6 +38,7 @@
     "org.freedesktop.Platform.Compat.i386/x86_64/23.08"
     "org.freedesktop.Platform.GL32.default/x86_64/23.08"
     "org.gnome.design.Emblem"
+    "com.heroicgameslauncher.hgl"
     "org.kde.krita"
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
