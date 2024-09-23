@@ -143,7 +143,7 @@
     qbittorrent
     qFlipper
     quickemu
-    quickgui
+    # quickgui # Build error
     r2modman
     remmina
     ripgrep
