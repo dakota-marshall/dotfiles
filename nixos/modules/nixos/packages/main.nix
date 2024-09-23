@@ -23,7 +23,33 @@
         ];
     };
   };
-  programs.steam.enable = true;
+  programs.steam = {
+    enable = true;
+    # remotePlay.openFirewall = true;
+    # dedicatedServer.openFirewall = true;
+  };
+  services.sunshine = {
+    enable = true;
+    capSysAdmin = true;
+    autoStart = false;
+    settings = {
+        output_name = 1;
+
+    };
+    applications = {
+        # env = {
+        #     PATH = "$(PATH):$(HOME)/.local/bin";
+        # };
+        apps = [
+          {
+             name = "Steam";
+             output = "steam.txt";
+             detached = ["${pkgs.util-linux}/bin/setsid ${pkgs.steam}/bin/steam steam://open/bigpicture"];
+             image-path = "steam.png";
+          }
+        ];
+    };
+  };
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -63,6 +89,7 @@
     cargo
     catppuccin-gtk
     clang
+    cryptomator
     cliphist
     darktable
     distrobox
@@ -106,6 +133,7 @@
     oh-my-posh
     pavucontrol
     picard
+    piper
     pipewire
     pidgin
     polkit-kde-agent
@@ -133,6 +161,7 @@
     tenv
     tmux
     vlc
+    sunshine
     pika-backup
     playerctl
     wireplumber
@@ -146,6 +175,7 @@
     xdg-desktop-portal-hyprland
     yt-dlp
     zoxide
+    szyszka
   ];
  
 }

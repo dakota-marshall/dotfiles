@@ -32,6 +32,12 @@
 
   services.logrotate.checkConfig = false;
 
+  #Enable ratbagd for mouse configuration 
+  services.ratbagd.enable = true;
+
+  # Disable Networking
+  networking.firewall.enable = false;
+
   services.xserver.videoDrivers = [ "modesetting" ];
 
    environment.systemPackages = with pkgs; [
