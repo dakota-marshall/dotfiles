@@ -40,6 +40,7 @@
     "org.gnome.design.Emblem"
     "com.heroicgameslauncher.hgl"
     "org.kde.krita"
+    "org.localsend.localsend_app"
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
     "us.zoom.Zoom"

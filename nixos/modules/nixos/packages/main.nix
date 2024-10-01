@@ -28,6 +28,7 @@
     # remotePlay.openFirewall = true;
     # dedicatedServer.openFirewall = true;
   };
+  programs.adb.enable = true;
   services.sunshine = {
     enable = true;
     capSysAdmin = true;
@@ -166,6 +167,8 @@
     playerctl
     wireplumber
     wireshark
+    rhythmbox
+    clementine
     wine
     winetricks
     wl-clip-persist
