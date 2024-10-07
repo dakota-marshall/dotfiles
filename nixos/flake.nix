@@ -10,6 +10,7 @@
     };
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.4.1";
     catppuccin.url = "github:catppuccin/nix";
+    wezterm.url = "github:wez/wezterm?dir=nix";
 };
 
   outputs = { self, nixpkgs, home-manager, nix-flatpak, catppuccin, ... }@inputs:

@@ -1,5 +1,5 @@
 
-{ config, pkgs, ...}:
+{ config, inputs, pkgs, ...}:
 {
 
   imports = [
@@ -179,6 +179,8 @@
     yt-dlp
     zoxide
     szyszka
+    # From wezterm github flake
+    inputs.wezterm.packages.${pkgs.system}.default
   ];
  
 }
