@@ -45,6 +45,7 @@
     "org.signal.Signal"
     "us.zoom.Zoom"
     "org.prismlauncher.PrismLauncher"
+    "dev.vencord.Vesktop"
     # Official Jagex Launcher, not needed because of Bolt
     { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
     { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }

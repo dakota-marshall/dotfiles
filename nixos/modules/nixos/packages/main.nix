@@ -136,7 +136,6 @@
     picard
     piper
     pipewire
-    pidgin
     polkit-kde-agent
     python3
     python311Packages.psutil
@@ -150,7 +149,6 @@
     ripgrep
     runelite
     sesh
-    steam-tui
     swayidle
     swaylock-effects
     swaynotificationcenter
@@ -167,7 +165,6 @@
     playerctl
     wireplumber
     wireshark
-    rhythmbox
     clementine
     wine
     winetricks
@@ -178,7 +175,6 @@
     xdg-desktop-portal-hyprland
     yt-dlp
     zoxide
-    szyszka
     # From wezterm github flake
     inputs.wezterm.packages.${pkgs.system}.default
   ];
