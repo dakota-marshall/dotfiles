@@ -13,7 +13,7 @@ blocks:
       - type: path 
         style: plain
         background: transparent 
-        template: "<magenta>{{ .UserName }}</> <white>at</> <cyan>{{ .HostName }}</> <white>in</> <green>{{ .Path }}</> <yellow>{ {{ if ne .Var.Empty .Env.IN_NIX_SHELL }}{{ .Env.NIX_SHELL_PACKAGES }}{{ end }} }</>"
+        template: "<magenta>{{ .UserName }}</> <white>at</> <cyan>{{ .HostName }}</> <white>in</> <green>{{ .Path }}</> <yellow>{{ if or (eq .Env.IN_NIX_SHELL `impure`) (eq .Env.IN_NIX_SHELL `pure`) }}[ {{ .Env.NIX_SHELL_PACKAGES }} ]{{ end }}</>"
         max_width: 0
         min_width: 0
         interactive: false
