@@ -1,5 +1,5 @@
 
-{ config, pkgs, ...}:
+{ config, inputs, pkgs, ...}:
 {
 
   imports = [
@@ -23,7 +23,34 @@
         ];
     };
   };
-  programs.steam.enable = true;
+  programs.steam = {
+    enable = true;
+    # remotePlay.openFirewall = true;
+    # dedicatedServer.openFirewall = true;
+  };
+  programs.adb.enable = true;
+  services.sunshine = {
+    enable = true;
+    capSysAdmin = true;
+    autoStart = false;
+    settings = {
+        output_name = 1;
+
+    };
+    applications = {
+        # env = {
+        #     PATH = "$(PATH):$(HOME)/.local/bin";
+        # };
+        apps = [
+          {
+             name = "Steam";
+             output = "steam.txt";
+             detached = ["${pkgs.util-linux}/bin/setsid ${pkgs.steam}/bin/steam steam://open/bigpicture"];
+             image-path = "steam.png";
+          }
+        ];
+    };
+  };
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -63,6 +90,7 @@
     cargo
     catppuccin-gtk
     clang
+    cryptomator
     cliphist
     clonehero
     darktable
@@ -77,9 +105,10 @@
     gnomeExtensions.appindicator
     go
     go-swagger
+    gimp
     gyroflow
     helmfile
-    heroic
+    # heroic
     hyprpaper
     hyprshot
     jq
@@ -96,6 +125,7 @@
     kdePackages.qt6ct
     lutris
     mako
+    nfs-utils
     nerdfonts
     networkmanagerapplet
     nodejs_22
@@ -106,8 +136,8 @@
     oh-my-posh
     pavucontrol
     picard
+    piper
     pipewire
-    pidgin
     polkit-kde-agent
     python3
     python311Packages.psutil
@@ -115,13 +145,12 @@
     qbittorrent
     qFlipper
     quickemu
-    quickgui
+    # quickgui # Build error
     r2modman
     remmina
     ripgrep
     runelite
     sesh
-    steam-tui
     swayidle
     swaylock-effects
     swaynotificationcenter
@@ -134,10 +163,12 @@
     tenv
     tmux
     vlc
+    sunshine
     pika-backup
     playerctl
     wireplumber
     wireshark
+    clementine
     wine
     winetricks
     wl-clip-persist
@@ -147,6 +178,8 @@
     xdg-desktop-portal-hyprland
     yt-dlp
     zoxide
+    # From wezterm github flake
+    inputs.wezterm.packages.${pkgs.system}.default
   ];
  
 }

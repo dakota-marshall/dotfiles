@@ -50,7 +50,13 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+  services.printing = {
+      enable = true;
+      #disable browsed due to CVE-2024-47176
+      browsed = {
+        enable = false;
+      };
+  };
 
   # For Calibre to be able to see USB devices
   services.udisks2.enable = true;

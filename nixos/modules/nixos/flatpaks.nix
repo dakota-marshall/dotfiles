@@ -28,6 +28,7 @@
     "com.plexamp.Plexamp"
     "com.adamcake.Bolt"
     "com.ultimaker.cura"
+    "community.pathofbuilding.PathOfBuilding"
     "de.shorsh.discord-screenaudio"
     "io.github.dgsasha.Remembrance"
     "md.obsidian.Obsidian"
@@ -37,10 +38,14 @@
     "org.freedesktop.Platform.Compat.i386/x86_64/23.08"
     "org.freedesktop.Platform.GL32.default/x86_64/23.08"
     "org.gnome.design.Emblem"
+    "com.heroicgameslauncher.hgl"
     "org.kde.krita"
+    "org.localsend.localsend_app"
     "org.rncbc.qpwgraph"
     "org.signal.Signal"
     "us.zoom.Zoom"
+    "org.prismlauncher.PrismLauncher"
+    "dev.vencord.Vesktop"
     # Official Jagex Launcher, not needed because of Bolt
     { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
     { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }
