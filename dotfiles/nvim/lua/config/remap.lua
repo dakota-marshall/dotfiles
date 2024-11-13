@@ -29,3 +29,7 @@ vim.keymap.set(
         require("dap-python").test_method()
     end
 )
+
+-- Error browsing
+vim.keymap.set("n", "<leader>e", vim.diagnostic.goto_next, opts)
+vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action, opts)
