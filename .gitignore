@@ -5,3 +5,4 @@ dotfiles/obs-studio/logs/*
 dotfiles/obs-studio/profiler_data
 dotfiles/obs-studio/basic/profiles/*/service.json*
 dotfiles/blender/*/scripts/*
+*.log.json
