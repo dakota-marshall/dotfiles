@@ -44,7 +44,8 @@
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      wget
      git
-     blender-hip
+     # Build failing
+     # blender-hip
      v4l-utils
      linuxPackages_latest.v4l2loopback
    ];

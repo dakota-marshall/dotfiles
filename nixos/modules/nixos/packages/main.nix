@@ -84,13 +84,17 @@
     audacity
     bat 
     betaflight-configurator
+    bitwarden-cli
+    bitwarden-desktop
+    bitwarden-menu
     blueman
     btop
     bruno
     cargo
     catppuccin-gtk
     clang
-    cryptomator
+    # Package marked broken
+    # cryptomator
     cliphist
     clonehero
     darktable
@@ -106,7 +110,8 @@
     go
     go-swagger
     gimp
-    gyroflow
+    # Build Failing
+    # gyroflow
     helmfile
     # heroic
     hyprpaper
@@ -170,6 +175,7 @@
     wireshark
     clementine
     wine
+    wine64
     winetricks
     wl-clip-persist
     wl-clipboard
