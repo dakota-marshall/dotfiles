@@ -16,6 +16,10 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
+# Nix Shell ZSH Shim
+zinit light chisui/zsh-nix-shell
+export NIX_BUILD_SHELL="zsh"
+
 # Add in snippets
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
