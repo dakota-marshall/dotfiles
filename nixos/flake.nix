@@ -11,9 +11,13 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.4.1";
     # catppuccin.url = "github:catppuccin/nix";
     wezterm.url = "github:wez/wezterm?dir=nix";
+    umu= {
+      url = "git+https://github.com/Open-Wine-Components/umu-launcher/?dir=packaging\/nix&submodules=1";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, umu, ... }@inputs:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -42,6 +46,7 @@
             modules = [
                 nix-flatpak.nixosModules.nix-flatpak
                 ./hosts/desktop/configuration.nix
+                # umu.nixosModules.umu
                 home-manager.nixosModules.home-manager {
                    # home-manager.extraSpecialArgs = {inherit inputs; };
                    home-manager.users.dmarshall = {

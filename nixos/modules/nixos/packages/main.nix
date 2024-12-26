@@ -80,6 +80,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    airshipper
     ansible
     audacity
     bat 
@@ -116,8 +117,10 @@
     # heroic
     hyprpaper
     hyprshot
+    hyprcursor
     jq
     kcc
+    # kdePackages.elisa
     killall
     kubectl
     kubernetes-helm
@@ -127,6 +130,7 @@
     libnotify
     libsForQt5.filelight
     libsForQt5.okular
+    libsForQt5.elisa
     kdePackages.qt6ct
     lutris
     mako
@@ -155,7 +159,12 @@
     remmina
     ripgrep
     runelite
+    rhythmbox
+    lollypop
+    amberol
+    museeks
     sesh
+    starsector
     swayidle
     swaylock-effects
     swaynotificationcenter
@@ -186,6 +195,9 @@
     zoxide
     # From wezterm github flake
     inputs.wezterm.packages.${pkgs.system}.default
+    (inputs.umu.packages.${pkgs.system}.umu.override {
+        version = "${inputs.umu.shortRev}";
+    })
   ];
  
 }
