@@ -1,5 +1,5 @@
 
-{ config, inputs, pkgs, ...}:
+{ config, inputs, pkgs, lib, ...}:
 {
 
   imports = [
@@ -51,6 +51,10 @@
         ];
     };
   };
+# Teamspeak
+  # services.teamspeak3 = {
+  #   enable = true;
+  # };
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -60,7 +64,7 @@
   programs.waybar.enable = true;
   programs.dconf.enable = true;
   services.accounts-daemon.enable = true;
-  services.udev.packages = with pkgs; [ gnome.gnome-settings-daemon ];
+  services.udev.packages = with pkgs; [ gnome-settings-daemon ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   
@@ -106,7 +110,7 @@
     fzf
     gamescope
     gamemode
-    gnome.adwaita-icon-theme
+    adwaita-icon-theme
     gnomeExtensions.appindicator
     go
     go-swagger
@@ -135,7 +139,7 @@
     lutris
     mako
     nfs-utils
-    nerdfonts
+    nil
     networkmanagerapplet
     nodejs_22
     obs-studio
@@ -170,6 +174,8 @@
     swaynotificationcenter
     syncthing
     talosctl
+    teamspeak5_client
+    teamspeak3
     telegram-desktop
     terminator
     thunderbird

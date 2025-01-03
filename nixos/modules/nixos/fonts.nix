@@ -2,8 +2,7 @@
 {
 
   fonts.packages = with pkgs; [
-    nerdfonts
     noto-fonts
-  ];
+  ] ++ builtins.filter lib.attrsets.isDerivation (builtins.attrValues pkgs.nerd-fonts);
 
 }
