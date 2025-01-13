@@ -201,6 +201,7 @@
     zoxide
     # From wezterm github flake
     inputs.wezterm.packages.${pkgs.system}.default
+    inputs.legends-viewer.packages.${pkgs.system}.default
     (inputs.umu.packages.${pkgs.system}.umu.override {
         version = "${inputs.umu.shortRev}";
     })
