@@ -86,6 +86,7 @@
   environment.systemPackages = with pkgs; [
     airshipper
     ansible
+    anki
     audacity
     bat 
     betaflight-configurator
@@ -173,6 +174,7 @@
     swaylock-effects
     swaynotificationcenter
     syncthing
+    strawberry
     talosctl
     teamspeak5_client
     teamspeak3
