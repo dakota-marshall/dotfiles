@@ -17,6 +17,6 @@ swaylock \
 	--separator-color 00000000 \
 	--text-color cba6f7 \
 	--text-ver-color cdd6f4 \
-	--grace 2 \
 	--fade-in 0.2 \
   --daemonize
+  # --grace 2 \
