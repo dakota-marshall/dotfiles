@@ -58,6 +58,9 @@
       };
   };
 
+  # Enable driver for XBox Controllers
+  hardware.xpadneo.enable = true;
+
   # For Calibre to be able to see USB devices
   services.udisks2.enable = true;
 

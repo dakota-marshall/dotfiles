@@ -21,7 +21,6 @@
   # Requires flatpak flake source
   services.flatpak.packages = [
     "com.calibre_ebook.calibre"
-    "com.discordapp.Discord"
     "com.feaneron.Boatswain"
     "com.github.tchx84.Flatseal"
     "com.mongodb.Compass"
@@ -29,7 +28,6 @@
     "com.adamcake.Bolt"
     "com.ultimaker.cura"
     "community.pathofbuilding.PathOfBuilding"
-    "de.shorsh.discord-screenaudio"
     "io.github.dgsasha.Remembrance"
     "md.obsidian.Obsidian"
     "net.davidotek.pupgui2"
@@ -46,6 +44,10 @@
     "us.zoom.Zoom"
     "org.prismlauncher.PrismLauncher"
     "dev.vencord.Vesktop"
+    "com.logseq.Logseq"
+    "dev.deedles.Trayscale"
+    "org.openshot.OpenShot"
+    "org.shotcut.Shotcut"
     # Official Jagex Launcher, not needed because of Bolt
     { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
     { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }

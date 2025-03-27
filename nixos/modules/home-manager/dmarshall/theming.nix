@@ -1,44 +1,30 @@
 { config, pkgs, ... }:
 
 {
-    # Enable catppuccin for everything
-    # catppuccin = {
-    #     enable = true;
-    #     accent = "lavender";
-    #     flavor = "mocha";
-    #
-    #     pointerCursor = {
-    #         enable = true;
-    #         accent = "lavender";
-    #         flavor = "mocha";
-    #     };
-    # };
-
+    # environment.sessionVariables.QT_STYLE_OVERRIDE = "adwaita-dark";
+    dconf = {
+        enable = true;
+        settings = {
+            "org/gnome/desktop/interface" = {
+                color-scheme = "prefer-dark";
+            };
+        };
+    };
     gtk = {
         enable = true;
-        # catppuccin = {
-        #     enable = true;
-        #     accent = "lavender";
-        #     flavor = "mocha";
-        # };
         theme = {
-            name = "Catppuccin-Mocha-Standard-Lavender-Dark";
-            package = pkgs.catppuccin-gtk.override {
-                accents = [ "lavender" ];
-                size = "standard";
-                variant = "mocha";
-            };
+            name = "Adwaita";
         };
         iconTheme = {
           package = pkgs.adwaita-icon-theme;
           name = "Adwaita";
         };
-    };
+        gtk3.extraConfig = {
+          gtk-application-prefer-dark-theme = "1";
+        };
 
-    # Now symlink the `~/.config/gtk-4.0/` folder declaratively:
-    # xdg.configFile = {
-    #   "gtk-4.0/assets".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/assets";
-    #   "gtk-4.0/gtk.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk.css";
-    #   "gtk-4.0/gtk-dark.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
-    # };
+        gtk4.extraConfig = {
+          gtk-application-prefer-dark-theme = "1";
+        };
+    };
 }

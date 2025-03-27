@@ -12,6 +12,10 @@
   boot.initrd.kernelModules = [ "amdgpu" ];
   boot.kernelModules = [ "kvm-amd" "v4l2loopback" ];
   boot.extraModulePackages = [ pkgs.linuxPackages_latest.v4l2loopback ];
+  # allow ip forwarding for tailscale 
+  boot.kernel.sysctl = {
+    "net.ipv4.ip_forward" = 1;
+  };
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/b8a6a737-ddb5-4044-bf3a-0941d89a4584";

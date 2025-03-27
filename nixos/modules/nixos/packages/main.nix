@@ -2,9 +2,9 @@
 { config, inputs, pkgs, lib, ...}:
 {
 
-  imports = [
-    ./firefox/firefox.nix
-  ]; 
+  # imports = [
+  #   ./firefox/firefox.nix
+  # ]; 
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -51,6 +51,8 @@
         ];
     };
   };
+# Tailscale
+  services.tailscale.enable = true;
 # Teamspeak
   # services.teamspeak3 = {
   #   enable = true;
@@ -89,11 +91,13 @@
     anki
     audacity
     bat 
+    beets
     betaflight-configurator
     bitwarden-cli
     bitwarden-desktop
     bitwarden-menu
     blueman
+    blockbench
     btop
     bruno
     cargo
@@ -109,6 +113,7 @@
     fd
     ffmpeg-full
     fzf
+    firefox
     gamescope
     gamemode
     adwaita-icon-theme
@@ -146,13 +151,13 @@
     obs-studio
     openfortivpn
     openrgb
-    openshot-qt
+    # openshot-qt #https://github.com/NixOS/nixpkgs/issues/345314
     oh-my-posh
     pavucontrol
     picard
     piper
     pipewire
-    polkit-kde-agent
+    kdePackages.polkit-kde-agent-1
     python3
     python311Packages.psutil
     python311Packages.pydbus
@@ -165,7 +170,9 @@
     ripgrep
     runelite
     rhythmbox
+    rclone
     lollypop
+    librewolf
     amberol
     museeks
     sesh
@@ -182,6 +189,7 @@
     terminator
     thunderbird
     terraform
+    xfce.thunar
     tenv
     tmux
     vlc
@@ -199,14 +207,16 @@
     wofi
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
+    onlyoffice-desktopeditors
     yt-dlp
     zoxide
+    umu-launcher
     # From wezterm github flake
     inputs.wezterm.packages.${pkgs.system}.default
     inputs.legends-viewer.packages.${pkgs.system}.default
-    (inputs.umu.packages.${pkgs.system}.umu.override {
-        version = "${inputs.umu.shortRev}";
-    })
+    # (inputs.umu.packages.${pkgs.system}.umu.override {
+    #     version = "${inputs.umu.shortRev}";
+    # })
   ];
  
 }
