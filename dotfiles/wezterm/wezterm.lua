@@ -36,6 +36,9 @@ config.colors = {
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
 
+-- Update Settings
+config.check_for_updates = false
+
 -- Inactive Tab Settings
 config.inactive_pane_hsb = {
     saturation = 0.9,
