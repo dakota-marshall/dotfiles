@@ -211,6 +211,7 @@
     yt-dlp
     zoxide
     umu-launcher
+    steamtinkerlaunch
     # From wezterm github flake
     inputs.wezterm.packages.${pkgs.system}.default
     inputs.legends-viewer.packages.${pkgs.system}.default
