@@ -15,7 +15,7 @@
     #   url = "git+https://github.com/Open-Wine-Components/umu-launcher/?dir=packaging\/nix&submodules=1&tag=1.2.5";
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
-    legends-viewer.url = "github:dakota-marshall/LegendsViewer-Next/?ref=add-nix-flake";
+    legends-viewer.url = "github:dakota-marshall/LegendsViewer-Next?dir=nix&ref=add-nix-flake";
 };
 
   outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs:

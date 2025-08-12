@@ -106,4 +106,5 @@ require("lazy").setup({
         },
     },
     { "laytan/cloak.nvim" },
+    { "bakudankun/pico-8.vim" },
 })

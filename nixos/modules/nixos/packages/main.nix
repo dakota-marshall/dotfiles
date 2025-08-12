@@ -88,7 +88,7 @@
   environment.systemPackages = with pkgs; [
     airshipper
     ansible
-    anki
+    anki-bin
     audacity
     bat 
     beets
@@ -98,6 +98,7 @@
     bitwarden-menu
     blueman
     blockbench
+    blender-hip
     btop
     bruno
     cargo
@@ -107,7 +108,7 @@
     # cryptomator
     cliphist
     clonehero
-    darktable
+    # darktable
     distrobox
     docker
     fd
@@ -120,7 +121,7 @@
     gnomeExtensions.appindicator
     go
     go-swagger
-    gimp
+    # gimp
     # Build Failing
     # gyroflow
     helmfile
@@ -169,7 +170,7 @@
     remmina
     ripgrep
     runelite
-    rhythmbox
+    # rhythmbox
     rclone
     lollypop
     librewolf
@@ -181,7 +182,7 @@
     swaylock-effects
     swaynotificationcenter
     syncthing
-    strawberry
+    # strawberry
     talosctl
     teamspeak5_client
     teamspeak3

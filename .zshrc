@@ -87,5 +87,10 @@ alias pcat="bat -pp"
 alias nano="nvim"
 alias vim="nvim"
 alias vi="nvim"
-alias vpn="sudo openfortivpn -c ~/.config/openfortivpn/datayard.cfg; sudo killall openfortivpn"
 alias fyay="flatpak update -y && yay"
+
+# Vms
+ubuntu() {
+    quickemu --vm ~/ubuntu-22.04.conf --display none
+    remmina -c ~/.local/share/remmina/group_spice_linux-kvm_localhost-5930.remmina & ; disown
+}

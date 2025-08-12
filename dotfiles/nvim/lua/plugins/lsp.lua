@@ -25,3 +25,11 @@ require('mason-lspconfig').setup({
         lsp_zero.default_setup,
     },
 })
+-- require('lspconfig').pico8_ls.setup({
+--     capabilities = capabilities,
+--     cmd = {
+--         'pico8-ls',
+--         '--stdio'
+--     },
+--     filetypes = { "p8", 'pico8', 'lua' },
+-- })

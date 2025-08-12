@@ -27,6 +27,8 @@
     };
   }; 
 
+  nix.settings.download-buffer-size = 524288000;
+
   # Needed for AMD 7000 GPU
   boot.kernelPackages = pkgs.linuxPackages_latest;
   networking.hostName = "dmarshall-desktop"; # Define your hostname.

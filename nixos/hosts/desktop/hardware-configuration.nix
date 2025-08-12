@@ -42,21 +42,21 @@
   # Plex Server Mount
   services.rpcbind.enable = true;
   boot.supportedFilesystems = [ "nfs" ]; # https://github.com/NixOS/nixpkgs/issues/76671
-  systemd.mounts = [{
-    type = "nfs";
-    mountConfig = {
-        Options = "noatime,vers=3";
-    };
-    what = "10.0.5.210:/mnt/plex-storage";
-    where = "/mnt/plex";
-  }];
-  systemd.automounts = [{
-    wantedBy = ["multi-user.target"];
-    automountConfig = {
-        TimeoutIdleSec = "600";
-    };
-    where = "/mnt/plex";
-  }];
+  # systemd.mounts = [{
+  #   type = "nfs";
+  #   mountConfig = {
+  #       Options = "noatime,vers=3";
+  #   };
+  #   what = "10.0.5.210:/mnt/plex-storage";
+  #   where = "/mnt/plex";
+  # }];
+  # systemd.automounts = [{
+  #   wantedBy = ["multi-user.target"];
+  #   automountConfig = {
+  #       TimeoutIdleSec = "600";
+  #   };
+  #   where = "/mnt/plex";
+  # }];
 
   swapDevices =
     [ { device = "/dev/disk/by-uuid/004e8f6f-15b2-4beb-8f63-d769ede4918c"; }
