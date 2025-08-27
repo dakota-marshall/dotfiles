@@ -10,7 +10,7 @@
     };
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.4.1";
     # catppuccin.url = "github:catppuccin/nix";
-    wezterm.url = "github:wez/wezterm?dir=nix";
+    wezterm.url = "github:wez/wezterm?dir=nix&rev=54675c9c35788466f7828f5d722832bd1f310a62";
     # umu= {
     #   url = "git+https://github.com/Open-Wine-Components/umu-launcher/?dir=packaging\/nix&submodules=1&tag=1.2.5";
     #   inputs.nixpkgs.follows = "nixpkgs";
