@@ -138,9 +138,9 @@
     kubernetes-helmPlugins.helm-diff
     libgcc
     libnotify
-    libsForQt5.filelight
-    libsForQt5.okular
-    libsForQt5.elisa
+    kdePackages.filelight
+    kdePackages.okular
+    kdePackages.elisa
     kdePackages.qt6ct
     lutris
     mako

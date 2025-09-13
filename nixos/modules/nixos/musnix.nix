@@ -1,9 +1,9 @@
 {...}:
 {
-    inputs.musnix = {
+    musnix = {
         enable = true;
         kernel = {
-            realtime = true;
+            realtime = false;
         };
     };
 }
