@@ -1,4 +1,3 @@
-
 { config, inputs, pkgs, lib, ...}:
 {
 
@@ -174,6 +173,7 @@
     rclone
     lollypop
     librewolf
+    ludusavi
     amberol
     museeks
     sesh

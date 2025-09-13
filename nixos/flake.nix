@@ -16,38 +16,23 @@
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
     legends-viewer.url = "github:dakota-marshall/LegendsViewer-Next?dir=nix&ref=add-nix-flake";
+    musnix.url = "github:musnix/musnix";
 };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, musnix, ... }@inputs:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
       nixosConfigurations = {
-          # default = nixpkgs.lib.nixosSystem {
-          #   specialArgs = {inherit inputs;};
-          #   modules = [
-          #       nix-flatpak.nixosModules.nix-flatpak
-          #       catppuccin.nixosModules.catppuccin
-          #       ./hosts/default/configuration.nix
-          #       home-manager.nixosModules.home-manager {
-          #          home-manager.extraSpecialArgs = {inherit inputs; };
-          #          home-manager.users.dmarshall = { 
-          #            imports = [
-          #              catppuccin.homeManagerModules.catppuccin
-          #              ./modules/home-manager/dmarshall.nix
-          #            ];
-          #          };
-          #       }
-          #   ];
-          # };
           desktop = nixpkgs.lib.nixosSystem {
             specialArgs = {inherit inputs;};
             modules = [
                 nix-flatpak.nixosModules.nix-flatpak
                 ./hosts/desktop/configuration.nix
                 # umu.nixosModules.umu
+                musnix.nixosModules.musnix
                 home-manager.nixosModules.home-manager {
                    # home-manager.extraSpecialArgs = {inherit inputs; };
                    home-manager.users.dmarshall = {

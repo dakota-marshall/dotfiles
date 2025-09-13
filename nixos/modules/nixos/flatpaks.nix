@@ -53,6 +53,9 @@
     "org.strawberrymusicplayer.strawberry"
     "us.zoom.Zoom"
     "net.veloren.airshipper"
+    "org.guitarix.Guitarix"
+    "fm.reaper.Reaper"
+    "dev.bragefuglseth.Fretboard"
     # Official Jagex Launcher, not needed because of Bolt
     { appId = "com.jagex.Launcher"; origin = "JagexLauncher"; }
     { appId = "com.jagex.Launcher.ThirdParty.RuneLite"; origin = "JagexLauncher"; }

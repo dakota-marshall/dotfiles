@@ -16,6 +16,7 @@
       ../../modules/nixos/fonts.nix
       ../../modules/nixos/udev.nix
       ../../modules/nixos/cron.nix
+      ../../modules/nixos/musnix.nix
       inputs.home-manager.nixosModules.default
     ];
 

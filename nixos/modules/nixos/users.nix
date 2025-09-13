@@ -4,7 +4,7 @@
   users.users.dmarshall = {
     isNormalUser = true;
     description = "Dakota Marshall";
-    extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" "dialout" "plugdev" "gamemode" "kvm" "adbusers"];
+    extraGroups = [ "networkmanager" "wheel" "docker" "uucp" "vboxusers" "dialout" "plugdev" "gamemode" "kvm" "adbusers" "audio"];
     shell = pkgs.zsh;
     packages = with pkgs; [
     ];
