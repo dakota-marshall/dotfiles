@@ -118,8 +118,8 @@
     gamemode
     adwaita-icon-theme
     gnomeExtensions.appindicator
-    go
-    go-swagger
+    # go
+    # go-swagger
     # gimp
     # Build Failing
     # gyroflow
@@ -185,7 +185,7 @@
     # strawberry
     talosctl
     teamspeak5_client
-    teamspeak3
+    # teamspeak3 # insecure qtwebengine version
     telegram-desktop
     terminator
     thunderbird
