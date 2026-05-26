@@ -27,7 +27,6 @@
     # remotePlay.openFirewall = true;
     # dedicatedServer.openFirewall = true;
   };
-  programs.adb.enable = true;
   services.sunshine = {
     enable = true;
     capSysAdmin = true;
@@ -84,6 +83,15 @@
 
   };
 
+  # OBS
+  programs.obs-studio = {
+    enable = true;
+    enableVirtualCamera = true;
+    plugins = with pkgs.obs-studio-plugins; [
+      droidcam-obs
+    ];
+  };
+
   environment.systemPackages = with pkgs; [
     # airshipper
     ansible
@@ -92,12 +100,12 @@
     bat 
     beets
     betaflight-configurator
-    bitwarden-cli
-    bitwarden-desktop
-    bitwarden-menu
+    # bitwarden-cli
+    # bitwarden-desktop
+    # bitwarden-menu
     blueman
     blockbench
-    blender-hip
+    pkgsRocm.blender
     btop
     bruno
     cargo
@@ -108,6 +116,7 @@
     cliphist
     clonehero
     # darktable
+    davinci-resolve
     distrobox
     docker
     fd
@@ -131,6 +140,7 @@
     jq
     kcc
     # kdePackages.elisa
+    kdePackages.kdenlive
     killall
     kubectl
     kubernetes-helm
@@ -148,7 +158,6 @@
     nil
     networkmanagerapplet
     nodejs_22
-    obs-studio
     openfortivpn
     openrgb
     # openshot-qt #https://github.com/NixOS/nixpkgs/issues/345314
@@ -184,7 +193,7 @@
     syncthing
     # strawberry
     talosctl
-    teamspeak5_client
+    teamspeak6-client
     # teamspeak3 # insecure qtwebengine version
     telegram-desktop
     terminator
@@ -214,6 +223,7 @@
     umu-launcher
     steamtinkerlaunch
     wezterm
+    android-tools
     # From wezterm github flake
     # inputs.wezterm.packages.${pkgs.system}.default
     inputs.legends-viewer.packages.${pkgs.system}.default

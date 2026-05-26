@@ -33,6 +33,15 @@
   # Needed for AMD 7000 GPU
   boot.kernelPackages = pkgs.linuxPackages_latest;
   networking.hostName = "dmarshall-desktop"; # Define your hostname.
+  # hardware.graphics = {
+  #   enable = true;
+  # };
+  # hardware.amdgpu.opencl.enable = true;
+
+  virtualisation.libvirtd = {
+    enable = true;
+    allowedBridges = ["br0"];
+  };
 
   services.logrotate.checkConfig = false;
 
